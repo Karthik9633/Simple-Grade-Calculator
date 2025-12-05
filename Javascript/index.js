@@ -10,12 +10,18 @@ function gradeCalculator() {
     let Average = totalMarks / 5
     let grade
 
-    if (Average >= 90) grade = "A+"
-    else if (Average >= 80) grade = "A"
-    else if (Average >= 70) grade = "B"
-    else if (Average >= 60) grade = "C"
-    else if (Average >= 50) grade = "D"
-    else grade = "F"
+    if (Average >= 90) { 
+        grade = "A+" }
+    else if (Average >= 80) { 
+        grade = "A" }
+    else if (Average >= 70) { 
+        grade = "B" }
+    else if (Average >= 60) { 
+        grade = "C" }
+    else if (Average >= 50) { 
+        grade = "D" }
+    else { 
+        grade = "F" }
 
     alert(
         "Total Marks: " + totalMarks +
