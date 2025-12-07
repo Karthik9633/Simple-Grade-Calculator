@@ -1,10 +1,10 @@
 function gradeCalculator() {
 
-    let mark1 = Number(prompt("Enter mark for English:"))
-    let mark2 = Number(prompt("Enter mark for Computer Science:"))
-    let mark3 = Number(prompt("Enter mark for Social Studies:"))
-    let mark4 = Number(prompt("Enter mark for Chemistry:"))
-    let mark5 = Number(prompt("Enter mark for Maths:"))
+    let mark1 = Number(prompt("Enter mark for English(0-100):"))
+    let mark2 = Number(prompt("Enter mark for Computer Science(0-100):"))
+    let mark3 = Number(prompt("Enter mark for Social Studies(0-100):"))
+    let mark4 = Number(prompt("Enter mark for Chemistry(0-100):"))
+    let mark5 = Number(prompt("Enter mark for Maths(0-100):"))
 
     let totalMarks = mark1 + mark2 + mark3 + mark4 + mark5
     let Average = totalMarks / 5
